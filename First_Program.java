@@ -56,7 +56,7 @@ Program Internal:
 At compiler Time, the java file is compiled by the java compiler (it doesn't interact with the OS) and converts it into bytecode (.class).
 
 (First_Program.java -> compiler -> First_Program.class)
-(java source code   -> compiler -> 	bytecode      )
+(java source code   -> compiler -> 	bytecode)
 
 
 Run time?
@@ -85,7 +85,7 @@ tasks performed by JVM:
 -> loads code
 -> verifies code
 -> executes code
--> porvides runtime environment
+-> provides runtime environment
 
 
 JRE: java runtime environment

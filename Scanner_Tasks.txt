@@ -1,0 +1,34 @@
+Problem 1: Calculate Sum
+Write a program to take two integer inputs from the user and calculate their sum.
+
+Problem 2: Circle Area
+Create a program that reads the radius of a circle from the user and calculates its area. Assume that the value of π is 3.14159.
+
+Problem 3: Temperature Conversion
+Write a program that converts a temperature in Celsius to Fahrenheit. The user should provide the temperature in Celsius.
+
+Problem 4: Even or Odd
+Create a program that reads an integer from the user and determines whether it is even or odd.
+
+Problem 5: Maximum of Three Numbers
+Write a program that takes three integer inputs from the user and outputs the maximum of the three numbers.
+
+Problem 6: Triangle Area
+Design a program that reads the base and height of a triangle from the user and calculates its area.
+
+Problem 7: Grade Calculation
+Develop a program that takes a student's score as input and prints their corresponding grade based on the following grading scale:
+- 90-100: A
+- 80-89: B
+- 70-79: C
+- 60-69: D
+- Below 60: F
+
+Problem 8: Simple Interest Calculation
+Create a program that reads the principal amount, rate of interest, and time in years from the user, and calculates the simple interest.
+
+Problem 9: Vowel or Consonant
+Write a program that reads a character from the user and determines whether it is a vowel or a consonant.
+
+Problem 10: Palindrome Check
+Design a program that reads a string from the user and checks whether it is a palindrome (reads the same forwards and backwards).
