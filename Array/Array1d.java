@@ -29,5 +29,32 @@ public class Array1d {
 
 5. Array Average: Develop a Java program that calculates the average of all elements in a floating-point number array.
 
+6. Write a Java program to find the smallest and second smallest elements of a given array.  
+Test case:
+
+Input: {5, 2, 8, 1, 9, 4}
+Output:
+```
+Smallest: 1
+Second Smallest: 2
+```
+
+7. Write a Java program to separate 0s and 1s in an array of 0s and 1s into left and right sides.
+Test case:
+
+Input: {0, 1, 0, 1, 1, 0}
+Output: {0, 0, 0, 1, 1, 1}
+
+8. Write a Java program to arrange the elements of an array of integers so that all negative integers appear before all positive integers.  
+Test case:
+
+Input: {-5, 2, -8, 1, 9, -4}
+Output: {-5, -8, -4, 2, 1, 9}
+
+9. Write a Java program to arrange the elements of an array of integers so that all positive integers appear before all negative integers.
+Test case:
+
+Input: {-5, 2, -8, 1, 9, -4}
+Output: {2, 1, 9, -5, -8, -4}
 
 */
