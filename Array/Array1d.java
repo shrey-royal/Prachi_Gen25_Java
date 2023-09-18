@@ -1,11 +1,44 @@
+import java.util.Random;
+import java.util.Scanner;
+
 public class Array1d {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Random rand = new Random();
         // int[] arr = {1, 2, 3, 4, 5};
-        int []arr = new int[5];
+        
+        System.out.print("Enter the size of array: ");
+        int size = sc.nextInt();
+        int []arr = new int[size];
 
         for(int i=0; i<arr.length; i++) {
-            arr[i] = i+1;
+            // arr[i] = i+1;
+            arr[i] = rand.nextInt(100);
         }
+
+        System.out.print("Array elements are: ");
+        for(int i=0; i<arr.length; i++) {
+            System.out.print(arr[i] + ", ");
+        }
+        System.out.println();
+
+        System.out.print("Enter the element to search: ");
+        int search = sc.nextInt();
+
+        int index = -1; // -1 means not found
+        for(int i=0; i<arr.length; i++) {
+            if(arr[i] == search) {
+                index = i;
+                break;
+            }
+        }
+
+        if(index == -1) {
+            System.out.println(search + " not found");
+        } else {
+            System.out.println(search + " found at index: " + index);
+        }
+
 
         // for(int i=0; i<arr.length; i++) {
         //     System.out.println(arr[i]);
