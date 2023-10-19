@@ -36,15 +36,15 @@ public class StudentManagementSystem {
                     break;
 
                 case 3:
-                    // viewStudentDetailsByRollNumber(sc, studentRecords, studentCount);
+                    viewStudentDetailsByRollNumber(sc, studentRecords, studentCount);
                     break;
 
                 case 4:
-                    // calculateStudentAverageMarks(sc, studentRecords, studentCount);
+                    calculateStudentAverageMarks(sc, studentRecords, studentCount);
                     break;
 
                 case 5:
-                    // viewSubjectWiseTopper(studentRecords, studentCount);
+                    viewSubjectWiseTopper(studentRecords, studentCount);
                     break;
 
                 case 6:
@@ -96,9 +96,78 @@ public class StudentManagementSystem {
         }
     }
 
+    private static void viewStudentDetailsByRollNumber(Scanner sc, String[][] studentRecords, int studentCount) {
+        sc.nextLine();  // to consume the extra \n character
+        System.out.println("Enter the Roll Number to view student details: ");
+        String rollNumber = sc.nextLine();
+        boolean found = false;
 
+        for(int i=0; i<studentCount; i++) {
+            if(rollNumber.equals(studentRecords[i][1])) {
+                System.out.println("Student Details: ");
+                System.out.println("Name: " + studentRecords[i][0] + ", ");
+                System.out.println("Roll Number: " + studentRecords[i][1] + ", ");
+                System.out.println("Marks: ");
+                for(int j=2; j<studentRecords[0].length; j++) {
+                    System.out.print("Subject " + (j-1) + ": " + studentRecords[i][j] + ", ");
+                }
+                System.out.println();
+                found = true;
+                break;
+            }
+        }
 
+        if(!found) {
+            System.out.println("Student with Roll Number " + rollNumber + " not found!");
+        }
+    }
 
+    public static void calculateStudentAverageMarks(Scanner sc, String[][] studentRecords, int studentCount) {
+        sc.nextLine();
+        System.out.println("Enter the Roll Number to calculate average marks: ");
+        String rollNumber = sc.nextLine();
+        int totalMarks = 0;
+        int subjectCount = studentRecords[0].length - 2;
+        boolean found = false;
+
+        for(int i=0; i<studentCount; i++) {
+            if(rollNumber.equals(studentRecords[i][1])) {
+                for(int j=2; j<studentRecords[0].length; j++) {
+                    totalMarks += Integer.parseInt(studentRecords[i][j]);
+                }
+                double averageMarks = (double) totalMarks / subjectCount;
+                System.out.println("Average marks for student with Roll Number " + rollNumber + " is " + averageMarks);
+                found = true;
+                break;
+            }
+        }
+
+        if(!found) {
+            System.out.println("Student with Roll Number " + rollNumber + " not found!");
+        }
+    }
+
+    public static void viewSubjectWiseTopper(String[][] studentRecords, int studentCount) {
+        if (studentCount == 0) {
+            System.out.println("No student records found!");
+            return; // exit the method
+        }
+
+        for(int i=2; i<studentRecords[0].length; i++) {
+            int maxMarks = Integer.MIN_VALUE;
+            String subjectName = "Subject " + (i - 1);
+            String topperName = "";
+
+            for(int j=0; j<studentCount; j++) {
+                int marks = Integer.parseInt(studentRecords[j][i]);
+                if(marks > maxMarks) {
+                    maxMarks = marks;
+                    topperName = studentRecords[j][0];
+                }
+            }
+            System.out.println("Topper in " + subjectName + ": " + topperName + " with " + maxMarks + " marks.");
+        }
+    }
 }// end of class
 
 /*
