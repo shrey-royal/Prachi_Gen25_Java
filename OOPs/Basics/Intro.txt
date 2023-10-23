@@ -1,0 +1,55 @@
+OOPs: Object Oriented Programming System
+
+It is a Programming paradigm that uses objects and their interactions to design applications and computer programs. using this paradigm we can solve real world problems.
+
+Using OOPs we can make our program more secure and easy to understand, maintain and modify, and also the code will become more extensible and reusable.
+
+'''cpp
+class Student {
+    public:
+        //code
+        //code
+};
+
+'''java
+class Student {
+    private class variable1;
+    private class variable2;
+    protected class variable3;
+    private class variable4;
+
+    private methods() {}
+
+}
+
+Access Specifiers/Modifiers:
+
+1. Public: Public members are accessible from anywhere outside the class but within a program. We can access public members anywhere in the program using the direct member access operator (.) with the object of that class.
+
+2. Private: Private members are accessible from within the class only. No other outside class can access private members (data members and member functions) of the class directly. However, they can be accessed through public or protected methods of the class.
+
+3. Protected: Protected members are accessible from within the class and are also available to its derived class. Protected members can be accessed only using direct member access operator (.) with the object of that class or its derived class.
+
+4. Default: Default access modifier is accessible only within the package. It cannot be accessed from outside the package. If you do not specify any access modifier, it will be the default.
+
+
+4 Pillars of OOPs:
+
+1. Inheritance: Inheritance is a mechanism in which one class acquires the property of another class. For example, a child inherits the traits of his/her parents. With inheritance, we can reuse the fields and methods of the existing class. Hence, inheritance facilitates Reusability and is an important concept of OOPs.
+
+> Types of Ineritance:
+    1. Single Inheritance
+    2. Multilevel Inheritance
+    3. Hierarchical Inheritance
+    4. Multiple Inheritance (Not supported in Java using class)
+    5. Hybrid Inheritance   (Not supported in Java using class)
+
+2. Polymorphism: Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOPs occurs when a parent class reference is used to refer to a child class object. Any Java object that can pass more than one IS-A test is considered to be polymorphic. In Java, all Java objects are polymorphic since any object will pass the IS-A test for their own type and for the class Object.
+
+> Types of Polymorphism:
+    1. Compile Time Polymorphism (Method Overloading)
+    2. Run Time Polymorphism (Method Overriding)
+
+3. Abstraction: Abstraction is a process of hiding the implementation details and showing only functionality to the user. In other words, it shows only essential things to the user and hides the internal details, for example, sending SMS where you type the text and send the message. You don't know the internal processing about the message delivery.
+
+4. Encapsulation: Encapsulation is the mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
