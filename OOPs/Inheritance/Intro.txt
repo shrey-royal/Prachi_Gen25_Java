@@ -1,0 +1,8 @@
+Inheritance: It is the process by which one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.
+
+5 types of inheritance in java:
+1. Single Inheritance : one parent and one child class
+2. Multilevel Inheritance : one parent and one child class and one grand child class
+3. Hierarchical Inheritance : one parent and multiple child class
+4. Multiple Inheritance (Through Interfaces)
+5. Hybrid Inheritance (Through Interfaces)
