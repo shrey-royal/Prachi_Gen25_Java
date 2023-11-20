@@ -1,0 +1,17 @@
+Polymorphism: The ability to use a code in different ways.
+
+Like in inheritance we can use the same code in different classes, the same way in polymorphism we can use the same code in different ways in different or same class.
+
+Polymorphism is of two types:
+1. Compile time polymorphism / Static Binding / Early Binding
+2. Run time polymorphism    / Dynamic Binding / Late Binding
+
+> Method Overloading
+> Method Overriding
+> Covariant Return Type
+> super Keyword
+> Instance Initializer block
+> final Keyword
+> Runtime Polymorphism
+> Dynamic Binding
+> instanceof Operator
