@@ -5,6 +5,7 @@ class Parent {
 }
 
 class Child extends Parent {
+    @Override   //this annotation is optional but when used it will check if the method is actually overridden or not.
     void property() {
         System.out.println("I have nothing but, My Father have a house, a car, and a bike.");
     }
