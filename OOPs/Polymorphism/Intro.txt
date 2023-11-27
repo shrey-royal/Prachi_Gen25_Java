@@ -6,12 +6,12 @@ Polymorphism is of two types:
 1. Compile time polymorphism / Static Binding / Early Binding
 2. Run time polymorphism    / Dynamic Binding / Late Binding
 
-> Method Overloading
-> Method Overriding
+> Method Overloading - Static Binding   /   Compile time polymorphism
+> Method Overriding - Dynamic Binding   /   Run time polymorphism
 > Covariant Return Type
 > super Keyword
 > Instance Initializer block
 > final Keyword
-> Runtime Polymorphism
+> Runtime Polymorphism - based on upcasting and downcasting
 > Dynamic Binding
 > instanceof Operator
