@@ -1,0 +1,19 @@
+Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
+
+Ex: class(variable, methods, constructors)
+
+
+1. Access Modifiers
+2. Getter and Setter Methods
+3. Packages (Built-in and User-defined)
+examples of built in packages: java.lang, java.util, java.io, java.awt, java.net, java.sql
+
+user-defined packages: package keyword is used to create a user-defined package. The classes, interfaces, enumerations and annotation types that are defined in a package are members of that package.
+
+package is used to group related classes and interfaces together, so that they can be easily maintained. This also helps to avoid name clashes of classes and interfaces that are written by different developers worldwide.
+
+
+10 classes: 5 classes does math operations and the other 5 classes does string operations
+
+> create a package called math which will include 5 classes that does math operations.
+> create a package called string which will include 5 classes that does string operations.
