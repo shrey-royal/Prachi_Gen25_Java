@@ -1,0 +1,13 @@
+1. Reversing a String:
+Problem Statement: Text Reversal for Authentication
+
+Scenario: In a security system, a basic method of authentication involves reversing a user's input and comparing it with a stored value.
+
+Problem: Write a Java program that takes user input, reverses it, and checks if it matches a stored password for authentication purposes. If the reversed input matches the stored password, grant access; otherwise, deny access.
+
+2. Splitting a String:
+Problem Statement: Sentence Analysis for Keyword Identification
+
+Scenario: In a text analysis tool, understanding user queries or sentences often involves identifying keywords.
+
+Problem: Create a Java program that takes a user's input sentence and splits it into individual words. Analyze these words to identify specific keywords, counting their occurrences within the input sentence. Display the frequency of each keyword found in the sentence.
