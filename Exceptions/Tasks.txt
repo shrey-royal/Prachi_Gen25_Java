@@ -1,0 +1,5 @@
+1. Exception Handling in a Calculator: Design a calculator program in Java that employs the 'throw' statement to manage arithmetic exceptions. Create situations where 'throw' is used to handle divide-by-zero errors or invalid mathematical operations.
+
+2. Temperature Converter: Build an application that converts temperatures between Celsius and Fahrenheit. Handle 'NumberFormatException' using 'try' and 'catch' for incorrect input and ensure resource cleanup in the 'finally' block.
+
+3. Array Manipulation: Develop a program that performs operations on arrays (e.g., sorting, searching). Use 'try' and 'catch' to handle 'ArrayIndexOutOfBoundsException' for incorrect array access and ensure resource cleanup in 'finally'.
