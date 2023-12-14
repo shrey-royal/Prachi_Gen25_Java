@@ -1,0 +1,39 @@
+Multithreading: It is a process of executing multiple threads simultaneously.
+Thread: it's a lightweight sub-process, the smallest unit of processing.
+MultiTasking: It is a process of executing multiple tasks simultaneously.
+
+Advantages: 
+> it doesn't block the user.
+> you can perform many operations together, so it saves time.
+> threads are independent.
+
+Topics to learn in MultiThreading:
+
+> Multithreading
+> Life Cycle of a Thread
+> Two ways to create a Thread
+> How to perform multiple tasks by multiple threads
+> Thread Scheduler
+> Sleeping a thread
+> Can we start a thread twice?
+> What happens if we call the run() method instead of start() method?
+> Joining a thread
+> Naming a thread
+> Priority of a thread
+> Daemon Thread
+> ShutdownHook
+> Garbage collection
+> Synchronization with synchronized method
+> Synchronized block
+> Static synchronization
+> Deadlock
+> Inter-thread communication
+
+
+> Life Cycle of a Thread (Thread States)
+
+1. New : When a new thread is created
+2. Active {start()} : runnable(ready to run) / running(when thread gets the cpu)
+3. Blocked / Waiting : Whenever a thread is inactive for a span of time(not permanently). 
+4. Timed Waiting : when the thread is inactive for a specific span of time.
+5. Terminated : Whenever a thread has finished the execution or any unhandled exception occurs or the thread gets killed forcefully 
